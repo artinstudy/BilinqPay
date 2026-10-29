@@ -1,0 +1,725 @@
+* {
+    margin: 0px;
+    padding: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #F5F3FA;
+}
+
+.headimg {
+    background: url("images/images/background\ img\ head.png") no-repeat center;
+    width: 100%;
+    justify-content: center;
+    color: #fff;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    align-items: center;
+    padding-bottom: 46px;
+
+}
+
+.headul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: 14px;
+}
+
+.navbtns {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.oqtugma {
+    background: none;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.oqtugma:hover {
+    color: #FFBC51;
+}
+
+
+.saqirtugma {
+    background: #FFB840;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    width: 130px;
+    height: 43px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.saqirtugma:hover {
+    background: #503100;
+    color: #5C515C;
+}
+
+.ongchapdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.headh1div h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 10px;
+}
+
+.headh1div p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.startbtn {
+    background: #798AC9;
+    color: #fff;
+    border: none;
+    padding: 17px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 200px;
+    margin-bottom: 90px;
+
+}
+
+.startbtn:hover {
+    background: #102166;
+    color: black;
+}
+
+.chapdiv {
+    position: relative;
+    width: 650px;
+    height: 520px;
+}
+
+.monitor {
+    position: absolute;
+    top: -61px;
+    right: 0;
+    width: 661.795654296875px;
+}
+
+.laptop {
+    position: absolute;
+    bottom: 80px;
+    margin-left: -98px;
+    width: 800px;
+}
+
+.ongichkidivlar {
+    display: flex;
+    padding: 19px;
+    border-radius: 4px;
+    border-left: 5px solid;
+
+    background-color: white;
+    border-image: linear-gradient(to bottom, #00B5D0, #5C0E62) 1;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    width: 280px;
+    height: 164px;
+    margin-top: 30px;
+}
+
+.ichkih44 {
+    color: #5C5E6E;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.ichkipp {
+    color: #756F6F;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.introsection {
+    background-color: #F7F3FA;
+    background-image: url("images/images/oq bg rasm.png");
+    background-repeat: no-repeat;
+    background-position: center 300px;
+    width: 100%;
+    min-height: 2183px;
+
+}
+
+.asosdiv {
+    display: flex;
+    gap: 40px;
+}
+
+
+.ongichkidivlar2 {
+    display: flex;
+    padding: 19px;
+    border-radius: 4px;
+    border-left: 5px solid;
+    background-color: white;
+    border-image: linear-gradient(to bottom, #00B5D0, #5C0E62) 1;
+    box-shadow: 0 10px 30px rgba(120, 100, 180, 0.15);
+    width: 280px;
+    height: 164px;
+
+}
+
+.ongh1rasm {
+    position: absolute;
+    width: 88px;
+    height: 91px;
+    top: -40px;
+    left: -30px;
+    z-index: 0;
+}
+
+.span1 {
+    color: #5C0E62;
+}
+
+.allongchapdv {
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+    margin-top: 100px;
+    padding-right: 130px;
+
+}
+
+.ongtoplam {
+    color: #857885;
+    margin-bottom: 310px;
+
+}
+
+.makep1 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.Learnbtn {
+    display: flex;
+    color: #5C0E62;
+    background: none;
+    border: none;
+    font-weight: 800;
+    gap: 10px;
+    margin-left: -6px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.Learnbtn:hover {
+    color: #d7a7da;
+}
+
+
+
+.ongtoplam {
+    position: relative;
+    color: #857885;
+    font-size: 20px;
+}
+
+
+.ongtoplam h1,
+.ongtoplam p,
+.Learnbtn {
+    position: relative;
+    z-index: 1;
+}
+
+.ongtoplam p {
+    font-weight: 600;
+}
+
+.logolardiv {
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+    margin-top: -20px;
+}
+
+.card1 {
+    font-size: 12.78px;
+}
+
+.payment {
+    font-size: 36.53px;
+}
+
+.hac {
+    font-weight: 600;
+    color: #857885;
+}
+
+.hacp2 {
+    padding-top: 9px;
+    font-weight: 600;
+    color: #857885;
+}
+
+.hacp3 {
+    font-weight: 500;
+}
+
+.ongkulrang {
+    color: #5C5E6E;
+    margin-top: 90px;
+}
+
+.ongchapkulrang {
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    padding-top: 50px;
+}
+
+.chaptoplam {
+    margin-top: 100px;
+}
+
+.yangibgimg {
+    margin-top: 0;
+}
+
+
+.akaxonlar {
+    --u: 39px;
+
+    display: grid;
+    grid-template-columns: repeat(11, var(--u));
+    grid-template-rows: repeat(8, var(--u));
+    gap: 0.5px;
+}
+
+.akaxonlar img {
+    width: 100%;
+    height: auto;
+    display: block;
+    align-self: center;
+    transform: scale(1);
+
+}
+
+
+.akaxon {
+    grid-column: 1 / 5;
+    grid-row: 3 / 7;
+}
+
+
+.opaxon {
+    grid-column: 4 / 8;
+    grid-row: 1 / 5;
+}
+
+.opaxon2 {
+    grid-column: 8 / 12;
+    grid-row: 1 / 5;
+
+}
+
+.akaxon2 {
+    grid-column: 4 / 8;
+    grid-row: 5 / 9;
+}
+
+.opaxon3 {
+    grid-column: 8 / 12;
+    grid-row: 5 / 9;
+}
+
+.akaxonlarongchapdiv {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.card1 {
+    color: #E23434;
+}
+
+.card2 {
+    color: #E23434;
+}
+
+.card3 {
+    color: #E23434;
+}
+
+.safeongchapdiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 190px;
+    padding-left: 190px;
+
+
+}
+
+
+.gridrasmlar {
+    width: 707.4881591796875px;
+    height: 351.77667236328125px;
+    padding-left: 70px;
+    margin-top: -50px;
+}
+
+.gridrasmlar img {
+    border-top-left-radius: 10.13px;
+    border-bottom-left-radius: 10.13px;
+}
+
+.birinchirow {
+    display: flex;
+    gap: 1.9px;
+}
+
+.ikkinchirow {
+    display: flex;
+}
+
+.uchrow {
+    display: flex;
+    gap: 1.8px;
+}
+
+.ongh3rasm {
+    position: absolute;
+    width: 88px;
+    height: 91px;
+
+    z-index: 0;
+}
+
+.ongh2rasm {
+    position: absolute;
+    width: 88px;
+    height: 91px;
+    z-index: 0;
+}
+
+.ongh4rasm {
+    position: absolute;
+    width: 88px;
+    height: 91px;
+    z-index: 0;
+}
+
+.ongkulrang3 {
+    color: #857885;
+}
+
+.ongkulrang2 {
+    color: #857885;
+}
+
+
+
+.ongkulrang {
+    position: relative;
+}
+
+
+.ongkulrang2 {
+    position: relative;
+}
+
+
+.ongkulrang3 {
+    position: relative;
+}
+
+
+.ongh2rasm,
+.ongh3rasm,
+.ongh4rasm {
+    position: absolute;
+    width: 88px;
+    height: 91px;
+    top: -30px;
+    left: -25px;
+    z-index: 0;
+
+}
+
+
+.ongkulrang h1,
+.ongkulrang h5,
+.ongkulrang p,
+.ongkulrang .Learnbtn,
+.ongkulrang2 h1,
+.ongkulrang2 h5,
+.ongkulrang2 p,
+.ongkulrang2 .Learnbtn,
+.ongkulrang3 h1,
+.ongkulrang3 h5,
+.ongkulrang3 p,
+.ongkulrang3 .Learnbtn {
+    position: relative;
+    z-index: 1;
+}
+
+.oxirgiongchap {
+    background-image: url(images/images/oxirginbg.png);
+    background-repeat: no-repeat;
+    background-position: center 300px;
+    width: 100%;
+    height: 1030px;
+    color: white;
+    padding-top: 210px;
+    background-position: bottom;
+    margin-bottom: -110px;
+}
+
+.chapoxiri {
+    margin-top: 100px;
+}
+
+
+.ichkidiv {
+    display: flex;
+    gap: 100px;
+    padding-left: 80px;
+    margin-top: 0px;
+}
+
+.yellowh1 {
+    color: #FFBC51;
+    font-weight: 900;
+    font-size: 25.12px;
+
+}
+
+.yellowh2 {
+    color: #FFBC51;
+    font-weight: 900;
+    font-size: 14.08px;
+}
+
+.qariii {
+    padding-left: 100px;
+}
+
+.ichkih5 {
+    margin: 10px;
+    line-height: 24px;
+}
+
+.ichkidiv2 {
+    display: flex;
+    text-align: center;
+    gap: 100px;
+    font-size: 16px;
+    line-height: 129%;
+    font-weight: 700;
+    line-height: 129%;
+    letter-spacing: 4%;
+}
+
+.h5font {
+    font-weight: 600;
+}
+
+.ichkidiv3 {
+    display: flex;
+    padding-top: 100px;
+    gap: 230px;
+    padding-left: 190px;
+}
+
+.wrasm {
+    width: 90px;
+    height: 90px;
+}
+
+.oxirgiongchap {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.Whath1 {
+    padding-bottom: 31px;
+}
+
+
+.chapoxiri {
+    padding-top: 190px;
+}
+
+
+
+.tomchiicon {
+    position: absolute;
+
+    width: 88px;
+    height: 91px;
+    z-index: 110;
+
+}
+
+.boshdiv {
+    line-height: 100px;
+    padding-right: 120px;
+
+}
+
+.C {
+    padding-top: 3px;
+    width: 25px;
+    height: 25px;
+}
+
+.ichichh4 {
+    line-height: 15px;
+    display: flex;
+    gap: 8px;
+}
+
+.oqdiv {
+    color: #5C515C;
+    position: relative;
+    width: 1101px;
+    margin: -80px auto 0;
+    height: 182px;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+
+footer {
+    color: #857885;
+    justify-content: center;
+    display: flex;
+    height: 689px;
+    background-color: #210933;
+    padding-top: 200px;
+    gap: 50px;
+    margin-top: -81.8px;
+    padding-right: 99px;
+}
+
+.ulh4 {
+    color: white;
+    padding-bottom: 30px;
+}
+
+.copy {
+    line-height: 30px;
+}
+
+.uldiv1 ul {
+    list-style: none;
+    line-height: 50px;
+    text-align: left;
+    display: table-row;
+    font-weight: 600;
+
+}
+
+.uldiv2 ul {
+    list-style: none;
+    line-height: 50px;
+    text-align: left;
+    display: table-row;
+    font-weight: 600;
+}
+
+
+.uldiv3 ul {
+    list-style: none;
+    line-height: 50px;
+    text-align: left;
+    display: table-row;
+    font-weight: 600;
+}
+
+.chapdoira {
+    position: absolute;
+}
+
+.ongdoira {
+    position: absolute;
+}
+
+.ullardiv {
+    display: flex;
+    gap: 100px;
+    padding-top: 25px;
+
+}
+
+.trybtn {
+    background-color: #FFBC51;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0 7px 18px -6px #FFBC51;
+}
+
+.trybtn:hover {
+    color: #5C515C;
+    background-color: #e4920f;
+    box-shadow: 0 10px 22px -6px #FFBC51;
+}
+
+.oqdiv {
+    position: relative;
+    justify-content: center;
+}
+
+.oqdiv h1 {
+    position: relative;
+    z-index: 1;
+}
+
+.oqdiv h1::before {
+    content: "";
+    position: absolute;
+    width: 88px;
+    height: 91px;
+    left: -55px;
+    top: 0;
+    transform: translateY(-50%);
+    background: url("images/icons/Subtract kulrang.svg") no-repeat center / contain;
+    z-index: -1;
+}
+
+.oqdiv .trybtn {
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+
